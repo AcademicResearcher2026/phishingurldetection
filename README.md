@@ -1,19 +1,19 @@
-# phinsinhurldetection
+# phishingurldetection
 PHISHING URL DETECTION USING MACHINE LEARNING: AN ANALYSIS OF GENERALIZATION ACROSS INDEPENDENT DATASETS
 This repository contains code and result files for the study on phishing URL detection and cross-dataset generalization.
 
-## Environment
+# Environment
 Python 3.12 was used.
 Install dependencies:
 pip install -r requirements.txt
 
-## Data
+# Data
 The raw datasets are not redistributed. Download them according to data/README.md.
 Expected file paths:
 data/raw/phiusiil.csv
 data/raw/malicious_urls.csv
 
-## Reproduction
+# Reproduction
 Run the scripts in numerical order:
 python src/01_inspect_datasets.py
 python src/02_prepare_datasets.py
