@@ -1,0 +1,22 @@
+| Feature            |   Importance |
+|:-------------------|-------------:|
+| has_http           |       0.0963 |
+| colon_count        |       0.0871 |
+| has_https          |       0.0778 |
+| slash_count        |       0.0743 |
+| path_length        |       0.0733 |
+| subdomain_length   |       0.0691 |
+| is_www             |       0.0465 |
+| special_char_count |       0.036  |
+| hostname_dot_count |       0.0351 |
+| subdomain_count    |       0.0327 |
+| hostname_entropy   |       0.026  |
+| url_length         |       0.0253 |
+| token_count        |       0.023  |
+| url_entropy        |       0.0226 |
+| path_depth         |       0.0216 |
+| special_char_ratio |       0.0206 |
+| hostname_length    |       0.0196 |
+| letter_count       |       0.0182 |
+| letter_ratio       |       0.0171 |
+| dot_count          |       0.0162 |

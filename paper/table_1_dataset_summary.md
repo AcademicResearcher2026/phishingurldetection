@@ -1,0 +1,5 @@
+| Dataset        |   Total URLs |   Legitimate URLs |   Phishing URLs |   Phishing ratio (%) | Use in study                                  |
+|:---------------|-------------:|------------------:|----------------:|---------------------:|:----------------------------------------------|
+| PhiUSIIL       |       235370 |            134850 |          100520 |                42.71 | Internal evaluation and cross-dataset testing |
+| Malicious URLs |       522166 |            428080 |           94086 |                18.02 | Internal evaluation and cross-dataset testing |
+| Combined       |       757483 |            562930 |          194553 |                25.68 | Internal evaluation                           |

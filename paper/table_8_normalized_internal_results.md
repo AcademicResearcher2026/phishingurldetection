@@ -1,0 +1,14 @@
+| Dataset        | Model               |   Number of features |   Accuracy |   Precision |   Recall |   F1-score |   ROC-AUC |   PR-AUC |
+|:---------------|:--------------------|---------------------:|-----------:|------------:|---------:|-----------:|----------:|---------:|
+| combined       | Random Forest       |                   64 |     0.8516 |      0.7013 |   0.7354 |     0.7179 |    0.9093 |   0.8149 |
+| combined       | Decision Tree       |                   64 |     0.8352 |      0.6778 |   0.683  |     0.6804 |    0.8184 |   0.6371 |
+| combined       | Gradient Boosting   |                   64 |     0.8498 |      0.8279 |   0.5243 |     0.642  |    0.8887 |   0.7859 |
+| combined       | Logistic Regression |                   64 |     0.749  |      0.5088 |   0.6553 |     0.5729 |    0.7974 |   0.622  |
+| malicious_urls | Random Forest       |                   64 |     0.8588 |      0.5857 |   0.7391 |     0.6535 |    0.9168 |   0.7232 |
+| malicious_urls | Decision Tree       |                   64 |     0.839  |      0.5443 |   0.655  |     0.5945 |    0.7815 |   0.481  |
+| malicious_urls | Gradient Boosting   |                   64 |     0.8702 |      0.7668 |   0.402  |     0.5275 |    0.8938 |   0.6907 |
+| malicious_urls | Logistic Regression |                   64 |     0.6668 |      0.3279 |   0.8091 |     0.4667 |    0.788  |   0.4339 |
+| phiusiil       | Gradient Boosting   |                   64 |     0.8763 |      0.9485 |   0.751  |     0.8383 |    0.917  |   0.9245 |
+| phiusiil       | Random Forest       |                   64 |     0.866  |      0.9032 |   0.7687 |     0.8305 |    0.9071 |   0.9169 |
+| phiusiil       | Decision Tree       |                   64 |     0.8625 |      0.8987 |   0.7643 |     0.8261 |    0.8873 |   0.8816 |
+| phiusiil       | Logistic Regression |                   64 |     0.8636 |      0.9181 |   0.7474 |     0.824  |    0.908  |   0.9175 |

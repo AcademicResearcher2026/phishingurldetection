@@ -1,0 +1,11 @@
+| Scenario                 | Variant                         | Dataset / transfer         | Best model          |   Accuracy |   Precision |   Recall |   F1-score |   ROC-AUC |   PR-AUC |
+|:-------------------------|:--------------------------------|:---------------------------|:--------------------|-----------:|------------:|---------:|-----------:|----------:|---------:|
+| Internal evaluation      | Original URL features           | combined                   | Random Forest       |     0.9828 |      0.9665 |   0.9664 |     0.9665 |    0.9953 |   0.9908 |
+| Internal evaluation      | Original URL features           | malicious_urls             | Random Forest       |     0.9751 |      0.9249 |   0.938  |     0.9314 |    0.9917 |   0.9753 |
+| Internal evaluation      | Original URL features           | phiusiil                   | Gradient Boosting   |     0.9981 |      1      |   0.9957 |     0.9978 |    0.9988 |   0.9991 |
+| Cross-dataset evaluation | Original URL features           | malicious_urls_to_phiusiil | Random Forest       |     0.4262 |      0.4266 |   0.998  |     0.5977 |    0.4648 |   0.4237 |
+| Cross-dataset evaluation | Original URL features           | phiusiil_to_malicious_urls | Logistic Regression |     0.1803 |      0.1802 |   0.9997 |     0.3053 |    0.3328 |   0.1349 |
+| Cross-dataset evaluation | Without artifact-prone features | malicious_urls_to_phiusiil | Logistic Regression |     0.4244 |      0.4255 |   0.9937 |     0.5959 |    0.099  |   0.2665 |
+| Cross-dataset evaluation | Without artifact-prone features | phiusiil_to_malicious_urls | Random Forest       |     0.1801 |      0.1801 |   0.9998 |     0.3053 |    0.3133 |   0.1321 |
+| Cross-dataset evaluation | Normalized URL features         | phiusiil_to_malicious_urls | Random Forest       |     0.2179 |      0.1706 |   0.8648 |     0.2849 |    0.4208 |   0.1565 |
+| Cross-dataset evaluation | Normalized URL features         | malicious_urls_to_phiusiil | Gradient Boosting   |     0.6638 |      0.6423 |   0.4801 |     0.5495 |    0.6698 |   0.6153 |

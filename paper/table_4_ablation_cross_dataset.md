@@ -1,0 +1,18 @@
+| Dataset transfer           | Feature variant                 | Model               |   Number of features |   Accuracy |   Precision |   Recall |   F1-score |   ROC-AUC |   PR-AUC |
+|:---------------------------|:--------------------------------|:--------------------|---------------------:|-----------:|------------:|---------:|-----------:|----------:|---------:|
+| malicious_urls_to_phiusiil | all_features                    | Random Forest       |                   64 |     0.4262 |      0.4266 |   0.998  |     0.5977 |    0.4648 |   0.4237 |
+| malicious_urls_to_phiusiil | all_features                    | Gradient Boosting   |                   64 |     0.4252 |      0.426  |   0.9956 |     0.5967 |    0.6049 |   0.7455 |
+| malicious_urls_to_phiusiil | all_features                    | Logistic Regression |                   64 |     0.4251 |      0.4259 |   0.9954 |     0.5966 |    0.0102 |   0.2537 |
+| malicious_urls_to_phiusiil | all_features                    | Decision Tree       |                   64 |     0.4178 |      0.4217 |   0.9782 |     0.5894 |    0.4891 |   0.4218 |
+| malicious_urls_to_phiusiil | without_artifact_prone_features | Logistic Regression |                   59 |     0.4244 |      0.4255 |   0.9937 |     0.5959 |    0.099  |   0.2665 |
+| malicious_urls_to_phiusiil | without_artifact_prone_features | Random Forest       |                   59 |     0.3925 |      0.4066 |   0.9191 |     0.5638 |    0.2882 |   0.3295 |
+| malicious_urls_to_phiusiil | without_artifact_prone_features | Gradient Boosting   |                   59 |     0.3907 |      0.4055 |   0.9149 |     0.5619 |    0.4979 |   0.5722 |
+| malicious_urls_to_phiusiil | without_artifact_prone_features | Decision Tree       |                   59 |     0.3766 |      0.3942 |   0.8562 |     0.5398 |    0.4377 |   0.3989 |
+| phiusiil_to_malicious_urls | all_features                    | Logistic Regression |                   64 |     0.1803 |      0.1802 |   0.9997 |     0.3053 |    0.3328 |   0.1349 |
+| phiusiil_to_malicious_urls | all_features                    | Decision Tree       |                   64 |     0.1801 |      0.1802 |   0.9998 |     0.3053 |    0.4999 |   0.1802 |
+| phiusiil_to_malicious_urls | all_features                    | Gradient Boosting   |                   64 |     0.1801 |      0.1802 |   0.9998 |     0.3053 |    0.3124 |   0.1377 |
+| phiusiil_to_malicious_urls | all_features                    | Random Forest       |                   64 |     0.1801 |      0.1802 |   0.9998 |     0.3053 |    0.4671 |   0.1707 |
+| phiusiil_to_malicious_urls | without_artifact_prone_features | Random Forest       |                   59 |     0.1801 |      0.1801 |   0.9998 |     0.3053 |    0.3133 |   0.1321 |
+| phiusiil_to_malicious_urls | without_artifact_prone_features | Gradient Boosting   |                   59 |     0.1801 |      0.1801 |   0.9997 |     0.3053 |    0.1892 |   0.1238 |
+| phiusiil_to_malicious_urls | without_artifact_prone_features | Decision Tree       |                   59 |     0.1793 |      0.1794 |   0.9945 |     0.3039 |    0.4973 |   0.1794 |
+| phiusiil_to_malicious_urls | without_artifact_prone_features | Logistic Regression |                   59 |     0.1848 |      0.1641 |   0.8611 |     0.2757 |    0.4451 |   0.1644 |
